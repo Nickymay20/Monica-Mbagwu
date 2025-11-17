@@ -1,0 +1,21 @@
+.navbar .logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: brown;
+}
+
+.navbar{
+    background-color: rgb(189, 81, 121);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px, 20px;
+}
+
+.navlink{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("gutsell-lab.jpg");
+}

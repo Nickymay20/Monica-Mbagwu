@@ -1,0 +1,37 @@
+*{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: rgb(91, 91, 132);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-link a:hover{
+    color: black;
+}
+
+@media(max-width:600px){
+    .nav-link{
+        display: none;
+    }
+}
